@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:stretchColumns="0,1"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <TextView
+
+            android:layout_width="70dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bus" />
+       <TextView
+           android:id="@+id/text"
+           android:layout_width="90dp"
+           android:layout_height="70dp"
+           android:text="
+
+                          RUTAS"
+           android:textSize="25dp"
+           android:padding="1dp"
+           android:textStyle="bold"
+           android:textColor="@color/purple_500"
+           android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 1"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="Xochipilli-Parque Guadalupe
+                          TaBarato-Sarabia-Liberacion
+                          Rastro"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 2"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="TEC-Parque Guadalupe
+                                     Zapata-IMSS 15-ADO"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 3"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="NISSAN-Ecologico
+                                     Acsapack-Mercado 16 marzo"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 4"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="CEPVC-UGMEX-Mercado
+                                     Lic.Benito Juarez-3 sur"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 5"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="INE-ESC.Josefa Ortiz
+                                     Ofeve-CFE-CEPVC"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 6"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="El paseo-Penal-Auditec
+                                     TEC-Calvario-Chedraui"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 7(El tinaco)"
+            android:textSize="10dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="Coapan-TEC-Parque Guadalupe
+                                     Bodega Aurrera"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 7(UPN)"
+            android:textSize="10dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="Coapan-TEC-UPN
+                                     Xochipilli-Bodega"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 7(Granjas)"
+            android:textSize="10dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="TEC-Coapan-La esperanza
+                                     Calvario-AU"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 8(ASCOTE)"
+            android:textSize="10dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="Vista hermosa-Venustiano Carranza
+                                     La pedrera-AU"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 9"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="El riego-Hospital General
+                                     Chedraui-3 sur"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 10(San Diego)"
+            android:textSize="10dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="Chedraui-AU-Acsapck
+                                     UPAEP-San Diego"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 11"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="CONALEP-Esc.Manuel Pereyra
+                                     Prepa.Federal"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn14"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 12"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="TEC-Parque Guadalupe-NISSAN
+                                     El paseo-Hospital General"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn15"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 13"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="Via puebla-Garci crespo
+                                     Granjas-Josefa Ortiz"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn16"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 15(Los frailes)"
+            android:textSize="10dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="Agustin.A.cacho-2 norte
+                                     Heroes de nacozari"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn17"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 15(Purina)"
+            android:textSize="10dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="Heroes de nacozari-Purisima
+                                     Portes gil-Riego"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn18"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 24"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="IMSS15-Palmas"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn19"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 28(San Lorenzo)"
+            android:textSize="10dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="IMSS 30-Paseo-SAM'S
+                          Penal-balnearios-museo"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn20"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 31"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="Hospital Municipal-xochipilli
+                                        Chedraui"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn21"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 21"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="CBTIS-Sarabia-Centro
+                                         Mercado 16 marzo"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+        <Button
+            android:id="@+id/btn23"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="RUTA 30(norte)"
+            android:textSize="10dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="5dp"
+            android:text="Paseo-Penal-Vips
+                                   CEUT-Prim.Josefa"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:stretchColumns="0,1">
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="30dp"
+        android:stretchColumns="0,1">
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout></ScrollView>

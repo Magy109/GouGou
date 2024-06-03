@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GouGou" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/azul_cielo</item>
+        <item name="colorPrimaryVariant">@color/azul_cielo</item>
+        <item name="colorOnPrimary">@color/azul_cielo</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/azul_cielo</item>
+        <item name="colorSecondaryVariant">@color/azul_cielo</item>
+        <item name="colorOnSecondary">@color/azul_cielo</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name ="android:actionBarItemBackground">@color/azul_cielo</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.notifications.NotificationsFragment">
+
+
+    <TextView
+        android:id="@+id/text_no"
+        android:layout_width="wrap_content"
+        android:layout_height="247dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="365dp"
+        android:background="@color/white"
+        android:text="
+        \n   Costos de combis y autobus
+        \n
+        \nGeneral........$8.00
+                      \nEstudiantes(combis)...$5.50
+                      \n3ra.Edad........$4.00
+                      \nDiscapacitados.$0.0"
+        android:textColor="@color/black"
+
+        android:textSize="24dp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+
+    <TextView
+        android:layout_width="376dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="378dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="252dp"
+        android:text="*Los precios de estudiantes aplican de Lunes a Viernes
+                      \n unicamente presentando credencial escolar.">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="524dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="146dp"
+        android:textColor="@color/black"
+        android:background="@drawable/bordes_redondos"
+        android:text="Emergencia" />
+</RelativeLayout>
